@@ -61,6 +61,10 @@ pip install requests pandas geopandas sqlalchemy psycopg2-binary matplotlib foli
 
 ### 2. Iniciar o container e rodar scripts
 ```bash
+# Deixe o script executável
+chmod +x bash.example.sh 
+
+# Rode o script
 ./bash.example.sh
 ```
 
