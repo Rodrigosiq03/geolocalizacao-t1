@@ -1,0 +1,8 @@
+requests
+pandas
+geopandas
+sqlalchemy
+psycopg2-binary
+geoalchemy2
+folium
+matplotlib

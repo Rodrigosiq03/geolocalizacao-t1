@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  db:
+    image: postgis/postgis:15-3.3
+    container_name: postgis
+    environment:
+      POSTGRES_USER: gis
+      POSTGRES_PASSWORD: gis
+      POSTGRES_DB: geodb
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+
+  jupyter:
+    image: jupyter/scipy-notebook:latest
+    container_name: jupyter
+    environment:
+      JUPYTER_TOKEN: "changeme"
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./:/home/jovyan/work
+    depends_on:
+      - db
