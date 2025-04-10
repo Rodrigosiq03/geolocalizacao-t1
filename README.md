@@ -66,6 +66,8 @@ chmod +x bash.example.sh
 
 # Rode o script
 ./bash.example.sh
+
+# Rode o bloco de codigo do jupyter notebook notebooks/coleta_e_ingestao.ipynb
 ```
 
 ### 3. Acessar o Jupyter Notebook
