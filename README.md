@@ -1,7 +1,7 @@
 # Projeto CIC901 – Geolocalização e Mapas Digitais (Parte 1)
 
-**Aluno:** Rodrigo Diana Siqueira  
-**RA:** 22.00680-0
+**Alunos:** Rodrigo Diana Siqueira e Rafael Bidetti Baldi Simões Ferreira
+**RA:** 22.00680-0 e 22.01019-0
 
 ## Tema
 Análise das estações de bike‑sharing (Bike Sampa) em São Paulo.
