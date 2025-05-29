@@ -1,3 +1,5 @@
+# Run into git bash to work properly!
+
 docker-compose up -d
 
 docker exec -it postgis \
