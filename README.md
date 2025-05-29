@@ -56,7 +56,7 @@ projeto-geolocalizacao/
 ```bash
 python -m venv venv
 source venv/bin/activate
-pip install requests pandas geopandas sqlalchemy psycopg2-binary matplotlib folium
+pip install -r requirements.txt
 ```
 
 ### 2. Iniciar o container e rodar scripts

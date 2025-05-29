@@ -6,3 +6,8 @@ psycopg2-binary
 geoalchemy2
 folium
 matplotlib
+scikit-learn
+numpy
+seaborn
+shapely
+mgwr
