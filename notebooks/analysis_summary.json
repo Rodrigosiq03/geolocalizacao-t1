@@ -1,0 +1,7 @@
+{
+  "total_stations": 240,
+  "low_availability_stations": 100,
+  "mean_occupation_rate": 1.1586184867251041,
+  "std_occupation_rate": 12.762009566905133,
+  "clusters_identified": 1
+}

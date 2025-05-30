@@ -62,10 +62,16 @@ pip install -r requirements.txt
 ### 2. Iniciar o container e rodar scripts
 ```bash
 # Deixe o script executável
-chmod +x bash.example.sh 
+chmod +x bash.example.sh
+
+# Pelo Bash no Windows
+chmod +x bash.windows.sh
 
 # Rode o script
 ./bash.example.sh
+
+# Pelo Bash no Windows
+./bash.windows.sh
 
 # Rode o bloco de codigo do jupyter notebook notebooks/coleta_e_ingestao.ipynb
 ```
